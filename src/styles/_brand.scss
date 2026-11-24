@@ -1,0 +1,52 @@
+// Overrides de variables de Bootstrap con la identidad de marca de Sazón,
+// definidos ANTES de importar bootstrap/scss/bootstrap para que todo el
+// framework (botones, badges, formularios, focus rings, links...) se
+// recalcule con esta paleta en vez de quedar en el celeste genérico.
+
+// Paleta de marca
+$brand-green:      #2F4B3C; // primario
+$brand-green-dark: #203328;
+$brand-gold:       #C7962E; // acento / advertencia
+$brand-red:        #A6392C; // peligro / margen bajo
+$brand-cream:      #F7F3EA; // fondo
+$brand-ink:        #23241F; // texto
+$brand-ink-soft:   #6B6C61;
+
+$primary:   $brand-green;
+$secondary: $brand-ink-soft;
+$success:   #3C6B41;
+$warning:   $brand-gold;
+$danger:    $brand-red;
+$info:      #3C6E71;
+$light:     $brand-cream;
+$dark:      $brand-ink;
+
+$body-bg:    $brand-cream;
+$body-color: $brand-ink;
+$border-color: #E2DAC9;
+
+$font-family-sans-serif: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+$headings-font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+$headings-font-weight: 600;
+$headings-color: $brand-ink;
+
+$border-radius:     .2rem;
+$border-radius-sm:  .15rem;
+$border-radius-lg:  .3rem;
+$border-radius-xl:  .4rem;
+
+$link-color: $brand-green;
+$link-hover-color: $brand-green-dark;
+
+$btn-font-weight: 600;
+$input-btn-focus-width: .2rem;
+
+$card-border-color: $border-color;
+$card-cap-bg: transparent;
+
+$navbar-dark-color: rgba(255,255,255,.75);
+$navbar-dark-hover-color: #fff;
+$navbar-dark-active-color: #fff;
+
+$enable-shadows: false;
+$enable-negative-margins: true;
